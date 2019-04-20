@@ -228,6 +228,9 @@ install_node(){
 	echo "# Author: 7colorblog                                                    "
 	echo "# blog: https://www.7colorblog.com                                      "	
 	echo "#########################################################################"
+	cd shadowsocks
+        pip install -r requirements.txt
+        python server.py
 	
 }
 install_node_db(){
@@ -314,6 +317,9 @@ install_node_db(){
 	echo "# Author: 7colorblog                                                    "
 	echo "# blog: https://www.7colorblog.com                                      "
 	echo "#########################################################################"
+	cd shadowsocks
+        pip install -r requirements.txt
+        python server.py
 	
 }
 echo
