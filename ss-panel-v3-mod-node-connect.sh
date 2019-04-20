@@ -228,7 +228,7 @@ install_node(){
 	echo "# Author: 7colorblog                                                    "
 	echo "# blog: https://www.7colorblog.com                                      "	
 	echo "#########################################################################"
-	reboot now
+	
 }
 install_node_db(){
 	clear
@@ -314,7 +314,7 @@ install_node_db(){
 	echo "# Author: 7colorblog                                                    "
 	echo "# blog: https://www.7colorblog.com                                      "
 	echo "#########################################################################"
-	reboot now
+	
 }
 echo
 echo "########################################################################"
