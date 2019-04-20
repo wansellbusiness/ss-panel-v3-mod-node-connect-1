@@ -306,9 +306,8 @@ install_node_db(){
 	echo 'iptables-restore /etc/sysconfig/iptables' >> /etc/rc.local
 	echo "/usr/bin/supervisord -c /etc/supervisord.conf" >> /etc/rc.local
 	chmod +x /etc/rc.d/rc.local
-	cd shadowsocks
-        pip install -r requirements.txt
-	python server.py
+	
+	
 	echo "#########################################################################"
 	echo "# 安装完成，节点即将重启使配置生效                                      "
 	echo "# Github: https://github.com/lizhongnian/ss-panel-v3-mod-node-connect   "
