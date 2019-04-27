@@ -17,7 +17,10 @@ bash ss-panel-v3-mod-node-connect.sh
 按提示选择1（webapi对接）或2（数据库对接）
 然后输入相应的参数，回车执行，等待脚本安装完毕重启vps后即可成功
 
-Linux 一键安装最新内核并开启 BBR 脚本
+## Linux 一键安装最新内核并开启 BBR 脚本
+
+```shell
 
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
+```
